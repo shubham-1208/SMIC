@@ -41,7 +41,15 @@ SMIC stands for <em>Subpixel Multispectral Image Classifier.</em>
 
 ###### Advance Classifiers
 1. Kernal PLICM
+(base classifier used: kernal FCM)
 
 |Clay| Grassland | Water | Wheat |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 |![claykplicm](images/2018/12/claykplicm.png)   | ![grasslandkplicm](images/2018/12/grasslandkplicm.png)  | ![waterkplicm](images/2018/12/waterkplicm.png)  |   ![wheatkplicm](images/2018/12/wheatkplicm.png)|
+
+2. Kernal ADIPLICM
+(base classifier used: kernal IPCM)
+
+|Clay| Grassland | Water | Wheat |
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+|![claykadiplicm](images/2018/12/claykadiplicm.png)   | ![grasslandkadiplicm](images/2018/12/grasslandkadiplicm.png)  |![wateradiplicm](images/2018/12/wateradiplicm.png)   | ![wheatkadiplicm](images/2018/12/wheatkadiplicm.png)  |
